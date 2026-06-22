@@ -1,29 +1,54 @@
-# Data Science Training Workshop Materials for Summer REU Programs at UW
+# UW REU Python Data Science Workshop 2026
 
-### What's here? 
+Training materials for the 2026 University of Washington Research Experience for Undergraduates (REU).
 
-1. [<ins>**introduction subdirectory**</ins>](https://github.com/UWrc/data-science-REU-2026/tree/main/introduction)
+This workshop introduces Python and Jupyter, builds core programming skills, and applies them to data loading, visualization, regression, and neural networks. The materials are designed for a hands-on workshop and can also be used later for self-paced practice.
 
-We will be using UWIT Research Computing's implementation of [<ins>**Open OnDemand**</ins>](https://openondemand.org/) (OOD) for this training series. OOD is a web-based portal that provides an integrated, single access point for access to the Hyak Klone HPC Cluster. OOD provides a graphical user interface (GUI) as an alternative to the command line that simplifies the process of submitting jobs, managing files, launching applications, and monitoring job status. Access our implementation at [<ins>**https://ondemand.hyak.uw.edu/**</ins>](https://ondemand.hyak.uw.edu/).
+## Getting started
 
-In order to access OOD you need to have an account on the Hyak cluster. If you don't have an account, check out our documentation [<ins>**here**</ins>](https://hyak.uw.edu/docs/account-creation).
+The workshop runs in JupyterLab on the Hyak Klone cluster through UW-IT Research Computing's [Open OnDemand](https://ondemand.hyak.uw.edu/) portal.
 
-Introductory materials include: 
-* [<ins>**00-connect-vpn.ipynb**</ins>](https://github.com/UWrc/data-science-REU-2026/blob/main/introduction/00-connect-vpn.ipynb) - Instructions for connecting to the UW VPN. A VPN connection is required for using Open OnDemand outside of the UW campus network. 
-* [<ins>**01-start-jupyter.ipynb**</ins>](https://github.com/UWrc/data-science-REU-2026/blob/main/introduction/01-start-jupyter.ipynb) - Instructions for launching a JupyterLab session on Hyak's OOD platform.
-* [<ins>**02-introduction.ipynb**</ins>](https://github.com/UWrc/data-science-REU-2026/blob/main/introduction/02-introduction.ipynb) - An introduction to Jupyter Notebooks. 
+If you do not yet have a Hyak account, follow the [Hyak account creation instructions](https://hyak.uw.edu/docs/account-creation).
 
-2. [<ins>**python_basics subdirectory**</ins>](https://github.com/UWrc/data-science-REU-2026/tree/main/python_basics)
-* Jupyter notebooks were adapted from  Software Carpentry's [<ins>**"Plotting and Programming in Python"**</ins>](https://swcarpentry.github.io/python-novice-gapminder/index.html) and [<ins>**"Programming with Python"**</ins>](https://swcarpentry.github.io/python-novice-inflammation/index.html).
-    * Notebooks starting **01-08** can be followed workbook style by running the code blocks to demonstrate presented concepts. This set of Notebooks excludes the solutions to the Exercises. 
-    * Notebooks starting **S01-S08** are duplicates of the Notebooks starting **01-08**, but this set of Notebooks include the solutions to the Exercises. 
-* The notebooks are meant to be a resource for your reference after the workshop has concluded. The workshop will be a hands on coding demonstration. The notebooks include additional practice exercises. 
+Complete the introductory materials in order:
 
-3. TO DO
+1. [Prerequisites](introduction/00-prereqs.md) — confirm your account, 2FA, and SSH client are ready.
+2. [Logging in to Hyak](introduction/01-logging-in.md) — initialize your Klone home directory, review storage, clone this repository into scratch space, and make it accessible from Open OnDemand.
+3. [Starting JupyterLab](introduction/02-start-jupyter.ipynb) — request a Jupyter session through Open OnDemand and open a Python notebook.
+4. [Introduction to Jupyter](introduction/03-introduction.ipynb) — learn how to work with notebook cells, Markdown, and the Python kernel.
 
-4. **analysis sub-directory**
-* Complete Jupyter Notebook
-* Jupyter Notebook with "TODO" or in-session code boxes for demonstration. 
+## Workshop materials
 
-License information: 
-* Some of the data and exercises used are under the Copyright of Software Carpentry and are made available under the Creative Commons Attribution license (CC BY 4.0).
+### 1. Python basics
+
+The [`python_basics`](python_basics/) lessons cover variables, data types, built-in functions, lists and strings, libraries, loops, and conditionals.
+
+- `01`–`07`: learner notebooks with exercises
+- `S01`–`S07`: corresponding notebooks with exercise solutions
+
+These lessons adapt material from Software Carpentry's [Plotting and Programming in Python](https://swcarpentry.github.io/python-novice-gapminder/) and [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/).
+
+### 2. Working with scientific data
+
+The [`python_plotting`](python_plotting/) lessons introduce the Python data science ecosystem and progress from NumPy arrays to pandas DataFrames and data visualization.
+
+- `01`–`03`: learner notebooks with exercises
+- `S01`–`S03`: corresponding notebooks with exercise solutions
+- [`data`](python_plotting/data/): data used by the lessons
+
+These lessons adapt material from Software Carpentry's [Plotting and Programming in Python](https://swcarpentry.github.io/python-novice-gapminder/) and Jake VanderPlas's [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/).
+
+### 3. Data analysis
+
+The [`analysis`](analysis/) lesson applies the workshop concepts to regression with scikit-learn and neural networks with PyTorch.
+
+- [`reu_basics-todo.ipynb`](analysis/reu_basics-todo.ipynb): participant notebook with in-session tasks to complete
+- [`reu_basics.ipynb`](analysis/reu_basics.ipynb): completed reference notebook
+
+## Using the notebooks
+
+Open the learner notebook for each section and run its cells from top to bottom. Complete the exercises as you go, then compare your work with the matching solution notebook whose filename begins with `S`. Notebook outputs and changes are saved locally in your cloned copy of the repository.
+
+## License and attribution
+
+Some data and exercises are adapted from Software Carpentry materials made available under the [Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/). See [`python_basics/LICENSE.md`](python_basics/LICENSE.md) for attribution and details about the original materials.
