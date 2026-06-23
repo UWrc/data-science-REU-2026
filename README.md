@@ -49,6 +49,10 @@ The [`analysis`](analysis/) section applies the workshop concepts to regression 
 
 The notebooks are meant to be a resource for your reference after the workshop has concluded. The workshop will be a hands-on coding demonstration. The notebooks include additional practice exercises.
 
+## Feedback
+
+We appreciate your feedback. [Please respond to this short survey.](https://forms.cloud.microsoft/r/MSg3FtiCws)
+
 ## License and attribution
 
 Some data and exercises are adapted from Software Carpentry materials made available under the [Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/). See [`python_basics/LICENSE.md`](python_basics/LICENSE.md) for attribution and details about the original materials.
