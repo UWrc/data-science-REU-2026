@@ -65,7 +65,7 @@ This location is designed for active computation and provides substantially more
 Create your personal folder there and navigate to it:
 
 ```bash
-mkdir /gscratch/scrubbed/$USER
+mkdir -p /gscratch/scrubbed/$USER
 cd /gscratch/scrubbed/$USER
 ```
 

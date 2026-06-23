@@ -13,8 +13,8 @@ If you do not yet have a Hyak account, follow the [Hyak account creation instruc
 Complete the introductory materials in order:
 
 1. [Prerequisites](introduction/00-prereqs.md) — confirm your account, 2FA, and SSH client are ready.
-2. [Logging in to Hyak](introduction/01-logging-in.md) — initialize your Klone home directory, clone this repository into scratch storage space, and make it accessible from Open OnDemand.
-3. [Starting JupyterLab](introduction/02-start-jupyter.ipynb) — launch a JupyterLab session through Open OnDemand and open a Python notebook.
+2. [Logging in to Hyak](introduction/01-logging-in.md) — connect to UW VPN, initialize your Klone home directory, clone this repository into scratch storage space, and make it accessible from Open OnDemand.
+3. [Starting JupyterLab](introduction/02-start-jupyter.md) — launch a JupyterLab session through Open OnDemand and open a Python notebook.
 4. [Introduction to Jupyter](introduction/03-introduction.ipynb) — learn how to work with notebook cells, Markdown, and the Python kernel.
 
 ## Workshop materials
