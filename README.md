@@ -32,8 +32,8 @@ Jupyter notebooks were adapted from Software Carpentry's [Plotting and Programmi
 
 The [`python_plotting`](python_plotting/) section introduces the Python data science ecosystem and progress from NumPy arrays to pandas DataFrames and data visualization.
 
-- `01`–`03`: learner notebooks with exercises
-- `S01`–`S03`: corresponding notebooks with exercise solutions
+- `00`–`03`: learner notebooks with exercises
+- `S00`–`S03`: corresponding notebooks with exercise solutions
 - [`data`](python_plotting/data/): data used by the notebooks
 
 Learning materials were adapted from Software Carpentry's [Plotting and Programming in Python](https://swcarpentry.github.io/python-novice-gapminder/) and Jake VanderPlas's [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/).
